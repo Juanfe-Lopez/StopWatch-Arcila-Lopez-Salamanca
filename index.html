@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">    
+    <link rel="stylesheet" href="style.css">    
     
     <title>Stop Watch</title>
 </head>
 <body>
     <h1> El increible stop watch de Arcila-Lopez-Salamanca</h1>
     <div class="container-buttons">
-        <p id="instructions">Apucharrele start</p>
-        <button class="btn btn-primary" id=pause>Pause</button>
-        <button class="btn btn-primary" id=start>Start</button>
-        <button class="btn btn-primary" id=reset>Reset</button>
-    </div>
-    <div class="container-timer">
-        <h3 id="timer"></h3>
+        <div class="child">
+            <p id="instructions">Apucharrele start</p>
+            <button class="btn" id=pause disabled="true">Pause</button>
+            <button class="btn" id=start>Start</button>
+            <button class="btn" id=reset>Reset</button>
+            <div class="container-timer">
+                <h3 class="timer" id="timer">00:00:00</h3>
+            </div>
+        </div>
+    
     </div>
     <script src="index.js"></script>
 </body>

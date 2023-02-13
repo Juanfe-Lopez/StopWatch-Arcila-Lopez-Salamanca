@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+body{
+    background-image: url("https://cdn.vox-cdn.com/thumbor/8cGVVnp5eWAh9FQNM9XssaPHq4c=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19299843/IMG_6C0791D334EA_1.jpeg");
+}
+h1{
+    color: white;
+    font-family: 'Abril Fatface', serif;
+    font-size: 45px; 
+    font-weight: normal; 
+    line-height: 48px; 
+    margin: 0;
+    text-align: center;
+}
+p { 
+    color: #f8f8f8; 
+    font-family: 'Abril Fatface', serif;
+    font-size: 18px; 
+    font-weight: 500; 
+    line-height: 32px; 
+    margin: 0 0 24px; 
+}
+.container-buttons {
+    border-radius: 30px;
+    box-shadow: white 4px 4px 0 0;
+    color: white;
+
+    position: relative;
+    border: 3px solid white;
+    border-radius: 25px;
+
+  }
+  .child {
+    padding: 30px 0;
+    text-align: center;
+  }
+  .timer{
+    content: "0" counter(my-awesome-counter);
+    font-weight: bold;
+    font-size: 3rem;
+    margin-right: 0.5rem;
+    font-family: 'Abril Fatface', serif;
+    line-height: 1;
+  }
+
+  .btn{
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 30px;
+    box-shadow: white 4px 4px 0 0;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .btn:hover {
+    background-color: #fff;
+    color: black;
+  }
+  
+  .btn:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+    .btn{
+      min-width: 120px;
+      padding: 0 25px;
+    }
+  }
